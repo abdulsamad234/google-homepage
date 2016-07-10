@@ -1,0 +1,135 @@
+#samad{
+	display: block;
+	margin: auto;
+	position: relative;
+	top: 170px;
+	width: 260px;
+	height: 100px;
+}
+form{
+	text-align: center;
+	position: relative;
+	top: 175px;
+}
+#search_form{
+	width: 580px;
+	height: 36.5px;
+	background-color: white;
+	font-size: 15px;
+	outline: 0;
+	border: 0.5px solid #dddddd;
+	text-indent: 7.5px;
+}
+#search_form:hover{
+	border: 0.5px solid #bbbbbb;
+}
+#search_form:focus{
+	border: 0.5px solid #0080ff;
+}
+.buttons{
+	position: relative;
+	top: 30px;
+	height: 34px;
+	font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+	font-weight: bold;
+	color: #707070;
+	font-size: 13.5px;
+	border: none;
+	background-color: #eeeeee;
+	border-radius: 2px;
+	margin:2px;
+}
+.buttons:hover{
+	border: 0.5px solid #bbbbbb;
+	background-color: #f0f0f0;
+	color: black;
+	box-shadow: 0px 0.4px 0.4px 0px #cccccc;
+}
+#search_button{
+	width:135px;
+}
+#lucky_button{
+	width:165px;
+}
+#down_text{
+	position: relative;
+	text-align: center;
+	top: 230px;
+	font-family: Roboto, Helvetica;
+	font-size: small;
+	font-weight: lighter;
+}
+.link:link{
+	text-decoration: none;
+}
+.link:hover{
+	text-decoration: underline;
+}
+
+#gmail{
+	font-family:Helvetica;
+	position: relative;
+	left: 60px;
+	top: 13px;
+	margin:0;
+	padding: 0;
+	left: 1110px;
+	font-size: small;
+	text-decoration: none;
+	color: #303030;
+	font-weight: lighter;
+}
+#images{
+	font-family:Helvetica;
+	position: relative;
+	top: 13px;
+	margin:0;
+	padding:0;
+	left: 1115px;
+	font-size: small;
+	text-decoration: none;
+	color: #303030;
+	font-weight: lighter;
+}
+#images:hover, #gmail:hover{
+	text-decoration: underline;
+}
+#keyboard{
+	position: relative;
+	right: 30px;
+}
+#footer{
+	list-style-type: none;
+	overflow: hidden;
+	margin: -9px;
+	background-color: #eeeeee;
+	position: fixed;
+	bottom:0;
+	width:300%;
+	border: 0.5px solid #d0d0d0;
+
+}
+li{
+	float: left;
+	display: inline-block;
+}
+li a{
+
+	display: block;
+	padding: 14px 10px 20px 10px;
+	text-align: center;
+	text-decoration: none;
+	color:#606060;
+	font-size: smaller;
+	font-family: Helvetica;
+}
+li a:hover{
+	text-decoration: underline;
+}
+.right{
+	position: relative;
+	left: 750px;
+}
+
+
+
